@@ -57,7 +57,7 @@ const Quiz = () => {
                                 {showAnswer?"Hide Answer":"Show Answer"}
                             </button>
                             {showAnswer?(
-                                <p> {question.answer} </p>
+                                <p> <b>The Correct Answer is {question.answer}</b> </p>
                             ): (
                                 ""
                             )}
